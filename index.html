@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>MyList</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navigation-bar" id="navigationBar">
+                <li class="navigation__item"><a href="#ropa" class="navigation__link">ROPA</a></li>
+                <li class="navigation__item"><a href="#electronica" class="navigation__link">ELECTRÓNICA</a></li>
+                <li class="navigation__item"><a href="#perfume" class="navigation__link">PERFUME</a></li>
+            </ul>
+            <span class="menu_button" id="menuButton"><i class="fa-solid fa-bars"></i></span>
+        </nav>
+    </header>
+
+    <article class="contenedor">
+        <section class="card-list" id="ropa">
+            <h2 class="titulo">ROPA</h2>
+            <ul class="lista">
+                <li class="lista__item item--1">Playeras:</li>
+                <ul class="sublista">
+                    <li class="sub--item subitem__playera">8 playeras</li>
+                </ul>
+
+                <li class="lista__item item--3">Pantalones:</li>
+                <ul class="sublista">
+                    <li class="sub--item subitem__pantalon">8 pantalones</li>
+                </ul>
+
+                <li class="lista__item item--3">Ropa interior:</li>
+                <ul class="sublista">
+                    <li class="sub--item subitem__ropainterior">8 calzones</li>
+                    <li class="sub--item subitem__ropainterior">8 playeras interiores</li>
+                </ul>
+            </ul>
+        </section>
+    </article>
+
+    <article class="contenedor">
+        <section class="card-list" id="electronica">
+            <h2 class="titulo">ELECTRÓNICA</h2>
+            <ul class="lista">
+                <li class="lista__item item--1">Audio:</li>
+                <ul class="sublista">
+                    <li class="sub--item subitem__audifonos">Audífonos</li>
+                </ul>
+            </ul>
+        </section>
+    </article>
+    
+    <article class="contenedor">
+        <section class="card-list" id="perfume">
+            <h2 class="titulo">PERFUME</h2>
+            <ul class="lista">
+                <li class="lista__item item--1">Valentino</li>
+                <ul class="sublista">
+                    <li class="sub--item subitem__valentino">VALENTINO BIR GREEN STRAVAGANTZA</li>
+                    <li class="sub--item subitem__valentino">VALENTINO BIR CORAL FANTASY</li>
+                    <li class="sub--item subitem__valentino">VALENTINO BIR INTENSE</li>
+                    <li class="sub--item subitem__valentino">VALENTINO BIR UOMO</li>
+                </ul>
+
+                <li class="lista__item item--3">Jean Paul Gaultier</li>
+                <ul class="sublista">
+                    <li class="sub--item subitem__jpg">JPG LE MALE LE PARFUM</li>
+                </ul>
+
+                <li class="lista__item item--3">Paco Rabanne</li>
+                <ul class="sublista">
+                    <li class="sub--item subitem__pr">PACO RABANNE INVICTUS VICTORY ELIXIR</li>
+                    <li class="sub--item subitem__pr">ONE MILLION GOLD</li>
+                </ul>
+            </ul>
+        </section>
+    </article>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
